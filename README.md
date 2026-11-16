@@ -19,3 +19,11 @@ Repository Settings → Pages → Build and deployment → Source: Deploy from a
 
 ## 운영 비용
 웹 정적 파일만 사용하므로 GitHub Pages 공개 저장소를 이용하면 별도의 서버를 유지할 필요가 없습니다. 이용약관과 무료 한도 변경 시 점검이 필요합니다.
+
+## 현재 Cloudflare 배포 주소
+https://fixmydata.kaistbnt.workers.dev/
+
+검색엔진용 canonical, robots.txt, sitemap.xml은 이 주소를 가리킵니다. 실제 Worker의 GitHub 자동 배포 연결과 HTTP 응답 헤더는 Cloudflare 대시보드에서 확인해야 합니다.
+
+## 광고 정책상 주의
+일반 Google AdSense 직접 등록은 workers.dev와 같은 서브도메인으로 진행하기 어렵습니다. 광고 등록 전 별도의 적격 도메인과 콘텐츠 품질 심사 준비가 필요합니다. 현재 광고 스크립트나 추적 코드는 포함하지 않습니다.
