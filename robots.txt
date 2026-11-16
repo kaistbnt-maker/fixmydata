@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kaistbnt-maker.github.io/fixmydata/sitemap.xml
